@@ -1,0 +1,12 @@
+<!--pages/add/add.wxml-->
+<view class="container">
+
+  <input class="input" placeholder="输入金额" type="digit" bindinput="outcomeInput" confirm-type="done" maxlength="10" />
+
+  <button type="primary" bindtap="outcomeTapped">增加一笔支出</button>
+
+  <input class="input" placeholder="输入金额" type="digit" bindinput="incomeInput" confirm-type="done" maxlength="10" />
+
+  <button type="primary" bindtap="incomeTapped">增加一笔收入</button>
+
+</view>

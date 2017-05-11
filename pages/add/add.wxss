@@ -1,0 +1,7 @@
+/* pages/add/add.wxss */
+
+.input {
+  width: 60%;
+  margin: 32rpx;
+  margin-top: 128rpx;
+}

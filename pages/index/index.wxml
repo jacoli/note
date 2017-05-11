@@ -1,0 +1,22 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+
+  <view class="in-out-come">
+    <text class="income">{{income}}</text>
+    <text class="outcome">{{outcome}}</text>
+  </view>
+
+  <view class="latest-records">
+    <text>{{latest}}</text>
+  </view>
+
+  <view class="buttons-container">
+    <button class="add-btn" type="primary" bindtap="addTapped">记一笔 </button>
+    <button class="revert-btn" type="primary" bindtap="revertTapped">撤销</button>
+  </view>
+
+</view>
